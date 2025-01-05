@@ -8,8 +8,8 @@ export const metadata = {
   description: "Welcome to Dana Stok's personal site!",
   icons: {
     icon: [
-      { url: '/favicon.ico' },  // Fallback ICO format
-      { url: '/favicon.svg', type: 'image/svg+xml' },  // SVG format
+      { url: '/favicon.ico' },  
+      { url: '/favicon.svg', type: 'image/svg+xml' },  
     ],
     apple: [
       { url: '/phone_favicon.png' }
