@@ -40,7 +40,7 @@ const Skills = () => {
 
   return (
     <section className="flex flex-col items-center justify-center p-8 mt-16 min-h-[60vh] bg-base-100">
-      <div className="w-full max-w-6xl bg-base-200 rounded-lg">
+      <div className="w-full max-w-6xl bg-base-200 shadow-xl rounded-lg">
         <h2 className="text-4xl font-bold mb-2 text-center">Skills</h2>
         <h3 className="text-lg mb-6 text-center font-semibold text-pink-800">TECH STACK</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 p-8">
