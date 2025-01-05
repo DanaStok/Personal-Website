@@ -19,12 +19,8 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb)); 
-  background: linear-gradient(
-    to bottom,
-    rgb(var(--background-start-rgb)),
-    rgb(var(--background-end-rgb))
-  ); 
+  color: rgb(var(--foreground-rgb)); /* Use the foreground variable */
+  background-color: rgb(var(--background-rgb)); /* Pure white background */
   padding: 1rem;
 }
 
