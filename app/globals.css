@@ -1,26 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "slick-carousel/slick/slick.css"; 
+@import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
 :root {
-  --foreground-rgb: 0, 0, 0; 
-  --background-start-rgb: 214, 219, 220; 
-  --background-end-rgb: 255, 255, 255; 
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 0, 0, 0; 
-    --background-start-rgb: 214, 219, 220; 
-    --background-end-rgb: 255, 255, 255; 
-  }
+  --foreground-rgb: 0, 0, 0;  /* Black text */
+  --background-start-rgb: 214, 219, 220;  /* Light gray background start */
+  --background-end-rgb: 255, 255, 255;  /* White background end */
 }
 
 body {
-  color: rgb(var(--foreground-rgb)); /* Use the foreground variable */
-  background-color: rgb(var(--background-rgb)); /* Pure white background */
+  color: rgb(var(--foreground-rgb));
   padding: 1rem;
 }
 
