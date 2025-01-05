@@ -7,8 +7,13 @@ export const metadata = {
   title: "Dana Stok",
   description: "Welcome to Dana Stok's personal site!",
   icons: {
-    icon: "/favicon.svg",
-    apple: "/phone_favicon.png",
+    icon: [
+      { url: '/favicon.ico' },  // Fallback ICO format
+      { url: '/favicon.svg', type: 'image/svg+xml' },  // SVG format
+    ],
+    apple: [
+      { url: '/phone_favicon.png' }
+    ]
   },
 };
 
