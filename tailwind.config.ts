@@ -26,7 +26,7 @@ const config: Config = {
   },
   plugins: [require('daisyui')],
   daisyui: {
-    themes: ['light', 'dark'], // Supports both light and dark modes
+    themes: ['light'], // Supports both light and dark modes
   },
 };
 
