@@ -14,36 +14,36 @@ const Skills = () => {
     autoplaySpeed: 1000,
     cssEase: "linear",
     responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-            }
-        },
-        {
-            breakpoint: 768,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
         }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
     ]
   };
 
   return (
-    <section className="flex flex-col items-center justify-center p-16 mt-16 min-h-[60vh] bg-base-200">
-      <div className="w-full max-w-6xl p-8 rounded-lg shadow-md">
+    <section className="flex flex-col items-center justify-center p-8 mt-16 min-h-[60vh] bg-base-200">
+      <div className="w-full max-w-6xl bg-base-100 rounded-lg">
         <h2 className="text-4xl font-bold mb-2 text-center">Skills</h2>
         <h3 className="text-lg mb-6 text-center font-semibold text-pink-800">TECH STACK</h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 p-8">
           <div>
             <h4 className="text-xl font-bold mb-2">Frontend Development</h4>
             <ul className="list-none">
