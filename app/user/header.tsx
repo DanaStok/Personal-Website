@@ -41,7 +41,7 @@ const Home = () => {
           </div>
         </a>
         {/* CV Button */}
-        <a href="/docs/DanaStokCV.pdf" target="_blank" rel="noopener noreferrer" className="home-button" data-tooltip="Show CV">
+        <a href="/media/DanaStokCV.pdf" target="_blank" rel="noopener noreferrer" className="home-button" data-tooltip="Show CV">
           <div className="home-button-wrapper">
             <div className="home-text">CV</div>
             <span className="home-icon">
