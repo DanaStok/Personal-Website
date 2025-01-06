@@ -35,7 +35,7 @@ export default function ComputerNavbar() {
 
         {/* Download CV Button */}
         <li className="li">
-          <a href="/docs/DanaStokCV.pdf" download="DanaStokCV.pdf" className="svg w-6 h-6 text-gray-800 dark:text-white">
+          <a href="/media/DanaStokCV.pdf" download="DanaStokCV.pdf" className="svg w-6 h-6 text-gray-800 dark:text-white">
             <FaFileAlt />
           </a>
         </li>
