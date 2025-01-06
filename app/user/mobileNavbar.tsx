@@ -22,7 +22,7 @@ export default function MobileNavbar() {
         <div className="flex space-x-2">
           {/*  CVButton */}
           <a
-            href="/docs/DanaStokCV.pdf"
+            href="/media/DanaStokCV.pdf"
             download="DanaStokCV.pdf"
             className="btn btn-outline btn-neutral btn-sm rounded-full flex items-center"
           >
