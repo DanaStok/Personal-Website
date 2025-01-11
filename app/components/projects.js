@@ -18,8 +18,9 @@ export const projects = [
       { title: "Personalized Travel Planning", text: "Uses OpenAI API to tailor travel recommendations to user preferences." },
       { title: "Seamless Integration", text: "Combines FastAPI backend with Next.js frontend for smooth user experience." },
       { title: "Real-Time Deals", text: "Leverages SerpAPI to fetch up-to-date flight and hotel deals." },
+      { title: "Deployment", text: "Utilizes Docker for streamlined deployment and scalability." },
     ],
-    tags: ["Next.js", "FastAPI", "JavaScript", "HTML", "DaisyUI", "OpenAI API"],
+    tags: ["Next.js", "FastAPI", "JavaScript", "HTML", "DaisyUI", "OpenAI API", "Docker"],
     github: "https://github.com/DanaStok/AI_Trip_Planner",
   },
   {
