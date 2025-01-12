@@ -68,6 +68,7 @@ const Skills = () => {
             <h4 className="text-xl font-bold mb-2">Tools & Technologies</h4>
             <ul className="list-none">
               <li>Google Analytics</li>
+              <li>Docker</li>
               <li>Microsoft Azure</li>
               <li>OpenAI API</li>
             </ul>
@@ -100,6 +101,9 @@ const Skills = () => {
           </div>
           <div className="carousel-item">
             <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="Python" className="h-24 mx-auto" />
+          </div>
+          <div className="carousel-item">
+            <img src="https://cdn.worldvectorlogo.com/logos/docker.svg" alt="Docker" className="h-24 mx-auto" />
           </div>
         </Slider>
       </div>
