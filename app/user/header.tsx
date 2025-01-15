@@ -51,7 +51,7 @@ const Home = () => {
         </a>
         {/* LinkedIn Button */}
         <a
-          href="https://www.linkedin.com/in/dana-stok-19a690234/"
+          href="https://www.linkedin.com/in/dana-stok/"
           target="_blank"
           rel="noopener noreferrer"
           className="home-button"
