@@ -42,7 +42,7 @@ export default function ComputerNavbar() {
 
         {/* LinkedIn Link */}
         <li className="li">
-          <a href="https://www.linkedin.com/in/dana-stok-19a690234/" target="_blank" rel="noopener noreferrer" className="svg w-6 h-6 text-gray-800 dark:text-white">
+          <a href="https://www.linkedin.com/in/dana-stok/" target="_blank" rel="noopener noreferrer" className="svg w-6 h-6 text-gray-800 dark:text-white">
             <FaLinkedin />
           </a>
         </li>
