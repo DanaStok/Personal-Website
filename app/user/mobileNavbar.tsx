@@ -31,7 +31,7 @@ export default function MobileNavbar() {
 
           {/* LinkedIn Link */}
           <a
-            href="https://www.linkedin.com/in/dana-stok-19a690234/"
+            href="https://www.linkedin.com/in/dana-stok/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline btn-neutral btn-sm rounded-full flex items-center"
